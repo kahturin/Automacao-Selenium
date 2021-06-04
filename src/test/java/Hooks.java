@@ -3,7 +3,7 @@
 import org.junit.After;
 import org.junit.Before;
 
-public class Hooks {
+public class Hooks extends HomePage{
 	
 	HomePage hp = new HomePage();
 	

@@ -10,8 +10,6 @@ public class BotoesPage extends HomePage{
 		browser.findElement(By.linkText("Botões")).click();
 		browser.getCurrentUrl().equals("https://automacaocombatista.herokuapp.com/buscaelementos/botoes");
 		browser.findElement(By.id("teste")).click();
-		String clicou = browser.findElement(By.xpath("//*[@id=\'div1\']/h5")).getText();
-		Assert.assertEquals("Você Clicou no Botão!", clicou);
 		
 	}
 	
